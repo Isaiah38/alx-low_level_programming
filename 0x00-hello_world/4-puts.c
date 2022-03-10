@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * main - display a comment
- * @comment: container for the message
- * Return: display the comment
+ * main function- display a message
+ * Return: display the message
  */
 int main(void)
 
