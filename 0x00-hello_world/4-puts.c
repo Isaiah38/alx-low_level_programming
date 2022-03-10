@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main function- display a message
+ * function main- display a message
  * Return: display the message
  */
 int main(void)
