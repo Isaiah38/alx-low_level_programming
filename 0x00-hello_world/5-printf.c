@@ -7,7 +7,7 @@ int main(void)
 
 {
 
-	char comment[] = "with proper grammar, but the outcome is a piece of art";
+	char comment[] = "with proper grammar, but the outcome is a piece of art,";
 
 	printf("%s\n", comment);
 
