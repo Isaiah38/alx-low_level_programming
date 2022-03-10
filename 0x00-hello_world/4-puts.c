@@ -1,8 +1,10 @@
+#!/bin/bash
 #include <stdio.h>
 
-main(){
-	char comment[] = "\"Programming is like building a multilingual puzzle";
-		puts(comment);
+int main(){
 
-		return 0;
+	char comment[] = "\"Programming is like building a multilingual puzzle";
+	puts(comment);
+
+	return 0;
 }
