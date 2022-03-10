@@ -1,9 +1,11 @@
 #include <stdio.h>
 
-int main(){
+int main(void)
+
+{
 
 	char comment[] = "\"Programming is like building a multilingual puzzle";
-	puts(comment);
 
-	return 0;
+	return (puts(comment));
+
 }
