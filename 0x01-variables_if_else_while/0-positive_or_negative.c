@@ -1,11 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
 *main - Print a random number
 *return: program runs succefully
 */
+
 int main(void)
+
 {
     int n;
 
@@ -18,5 +21,6 @@ int main(void)
         printf("%d is zero\n", n);
     else if (n < 0)
         printf("%d is negative\n", n);
-    return 0;
+
+    return (0);
 }
