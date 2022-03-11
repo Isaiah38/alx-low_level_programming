@@ -4,7 +4,8 @@
 
 /**
 *main - Print a random number
-*return: program runs succefully
+*
+*Return: program runs succefully
 */
 
 int main(void)
