@@ -4,7 +4,7 @@
  * main - prints all the alphabets in lowercase,
  * followed by a new line
  * Return: Program run successfully
- * */
+ */
 int main(void)
 {
 	char i;
