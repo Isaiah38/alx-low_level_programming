@@ -1,15 +1,17 @@
 #include "main.h"
-#include <unistd.h>
+
 /**
- * print_numbers - print numbers 
- *@c: the value being checked
- * Return:  Always (0) when successful
+ * print_numbers - prints the numbers, from 0 to 9,
+ * followed by a new line
  */
 void print_numbers(void)
 {
-	int c;
+	int i;
 
-	for (c = 0; c <= 9; c++)
-		_putchar(c);
+	for (i = '0'; i < '10'; i++)
+	{
+		_putchar(i + '0');
+	}
+
 	_putchar('\n');
 }
