@@ -2,8 +2,7 @@
 
 /**
  * print_line - draws a straight line in the terminal
- * n: is number of times the character is printed
- * Return: 0
+ * @n: is number of times the character is printed
  */
 void print_line(int n)
 {
