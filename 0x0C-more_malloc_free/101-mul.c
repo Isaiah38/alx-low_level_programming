@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -42,12 +43,7 @@ int _strlen(char *s)
  */
 void errors(void)
 {
-	_putchar ('E');
-	_putchar ('r');
-	_putchar ('r');
-	_putchar ('o');
-	_putchar ('r');
-	_putchar('\n');
+	printf("Error\n");
 	exit(98);
 }
 
